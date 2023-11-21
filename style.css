@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #a74e4e;
+  }
+h1{
+    background-color: aqua;
+    padding: 15px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: xx-large;
+    background-color: skyblue;
+}
+p{
+    text-align: center;
+    font-size: larger;
+    background-color: skyblue;
+    padding: 4px;
+}
+.red{
+    text-align: center;
+    color: red;
+    background-color: skyblue;
+    font-style: serif;
+    padding: 15px;
+  }
+
+  .container{
+    display: flex;
+  }
+div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    width: 325px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  
+  
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    text-size-adjust: 50;
+    background-color: aqua;
+    font-style: oblique;
+  }
+  footer{
+    text-align: center;
+    font-style: serif;
+    background-color: rgb(6, 7, 6);
+    height: 50px;
+    color: white;
+  }
+
+  .register{
+    padding: 6px;
+  }
+
+  .form{
+    text-align: center;
+    display:lcontents;
+    background-color: rgb(22,22,43);
+  }
+
+  h4{
+    margin: 7px;
+    font-size: 22px;
+    color: white;
+  }
+
+  input{
+    background-color: rgb(22,22,43);
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    padding: 9px;
+    font-size: 20px;
+    animation: glow 1.5s infinite alternate;
+    margin: 4px;
+  }
+  @keyframes glow {
+    0% {
+        box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+}
+
+
+  select{
+    background-color: rgb(22,22,43);
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    padding: 9px;
+    font-size: 20px;
+    animation: glow 1.5s infinite alternate;
+    margin: 4px;
+    cursor: pointer;
+  }
+  textarea{
+    background-color: rgb(22, 22, 43);
+    border-radius: 10px;
+    width: 400px;
+    padding: 9px;
+    font-size: 20px;
+    color: white;
+    animation: glow 1.5s infinite alternate;
+    margin: 4px;
+  }
+
+  .submit{
+    background-color: green;
+    color: white;
+    margin: 6px;
+    cursor: pointer;
+  }
+ 
+ 
